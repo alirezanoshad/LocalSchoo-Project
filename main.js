@@ -51,7 +51,7 @@ let localSchool = {
         StB3:{        
             firstName:'lily',
             lastName:'loop',
-            phoneNumber:'',
+            phoneNumber:'20202020',
             score:'19.75',
             age:'17',
             gender:'female',
