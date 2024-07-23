@@ -1,6 +1,10 @@
+// NYC lcal school inforamtion
 let localSchool = {
     classA:{
-        StA1:{        
+        teacherName:'Muslim AK-47',
+        subject:'AllhuAkbar',
+        students: [
+        {        
             firstName:'lulu',
             lastName:'meow',
             phoneNumber:'none of your Shit:)',
@@ -9,7 +13,7 @@ let localSchool = {
             gender:'female',
             id:'lulu with a B'
         },
-        StA2:{        
+        {        
             firstName:'yuji',
             lastName:'itadori',
             phoneNumber:'01155284600',
@@ -18,7 +22,7 @@ let localSchool = {
             gender:'male',
             id:'CuteAF MF'
         },
-        StA3:{        
+        {        
             firstName:'johnny',
             lastName:'soons',
             phoneNumber:'911',
@@ -27,10 +31,13 @@ let localSchool = {
             gender:'male',
             id:'Smashin it'
         }
-
-    },
-    classB:{ 
-        StB1:{        
+    ]
+},
+    classB:{
+        teacherName:'Muslim-Noctrurnal-KH',
+        subject:'Blood-Vervain-Immortal',
+        students:[
+        {        
             firstName:'ahmed',
             lastName:'ghasemi',
             phoneNumber:'09405206911',
@@ -39,7 +46,7 @@ let localSchool = {
             gender:'male',
             id:'ahmedLX'
         },
-        StB2:{        
+        {        
             firstName:'damon',
             lastName:'salvatore',
             phoneNumber:'00116985',
@@ -48,7 +55,7 @@ let localSchool = {
             gender:'male',
             id:'Charming Vamp'
         },
-        StB3:{        
+        {        
             firstName:'lily',
             lastName:'loop',
             phoneNumber:'20202020',
@@ -57,7 +64,7 @@ let localSchool = {
             gender:'female',
             id:'nerdAF'
         }
-    }
-
+    ]
+}
 }
 console.log(localSchool);
